@@ -11,7 +11,8 @@ body * {
 }
 
 .header,
-.section-1 {
+.section-1,
+.footer {
     background-color: #1F2937;
     color: #f9faf8
 }
@@ -148,4 +149,25 @@ button {
     text-align: right;
     font-weight: 900;
     font-size: 16px;
+}
+
+.section-4 {
+    display: block;
+}
+
+.call-to-action-container {
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    gap: 48px;
+}
+
+.button-wrapper {
+    flex: none;
+}
+
+.button-2 {
+    border: 2px solid #f9faf8;
 }
